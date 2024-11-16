@@ -6,7 +6,7 @@ public class IfConditionDemo {
 
 	public static void main(String[] args) {
 		int age;
-		age=21;
+		
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter your age");

@@ -1,14 +1,10 @@
-package day2;
+package day3;
 
 import java.util.Scanner;
 
-public class NestedIfElseDemo {
+public class SalaryCalculation {
 
 	public static void main(String[] args) {
-		/*
-		 * per>=70 DIST per>=60 FC per>=50 SC per>=40 PC NP
-		 */
-
 		Scanner scan1 = new Scanner(System.in);
 		System.out.println("Please enter your Monthy Salary");
 		double monthlySalary = scan1.nextDouble();
@@ -27,6 +23,7 @@ public class NestedIfElseDemo {
 		
 		
 		System.out.println("Thank You");
+
 	}
 
 }
