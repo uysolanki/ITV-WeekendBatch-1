@@ -23,8 +23,7 @@ public class FunctionScenerio1 {
 		double areaCircle=3.14*radius*radius;
 		
 		System.out.println("Area of Circle is "+areaCircle);
-		
-		areaOfRectangle();	
+			
 	}
 
 	private static void areaOfRectangle()						//Taj
