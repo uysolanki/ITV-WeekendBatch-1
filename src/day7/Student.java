@@ -7,11 +7,25 @@ public class Student {
 	private int rno;
 	private double per;
 	
-	public Student()
+	public Student()	//No Args Constructor
 	{
 		sname="Vedant";
 		rno=1;
 		per=60.0;
+	}
+	
+	public Student(String a,int b,double c) //All Args Constructor
+	{
+		sname=a;
+		rno=b;
+		per=c;
+	}
+	
+	public Student(Student temp)  //Copy Constructor
+	{
+		sname=temp.sname;
+		rno=temp.rno;
+		per=temp.per;
 	}
 	public void acceptStudent()					//	batch[0]    batch[1]    batch[2]
 	{
