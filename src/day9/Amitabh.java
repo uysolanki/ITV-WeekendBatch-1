@@ -1,7 +1,7 @@
 package day9;
 
 public class Amitabh {
-		public void home()
+		public final void home()
 		{
 			System.out.println("Jalsa");
 		}

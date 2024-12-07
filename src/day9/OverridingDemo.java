@@ -6,8 +6,7 @@ public class OverridingDemo {
 		Abhishek a1=new Abhishek();
 		a1.home();
 		a1.car();
-				
-
+		a1.home("apple");
 	}
 
 }
