@@ -28,10 +28,22 @@ public class EmployeeDriver {
 		{
 		case 1: 
 			System.out.println("Enter Eno to Search");
-			int seno=sc.nextInt();  //192
+			int seno=sc.nextInt();  //194
+			boolean result=false;
 			for(int i=0;i<team.length;i++)
 			{
-				team[i].search(seno);
+				result=team[i].search(seno);
+				if(result==true)
+					break;
+			}
+			
+			if(result==true)
+			{
+				System.out.println("Employee Found");
+			}
+			else
+			{
+				System.out.println("Employee NOT Found");
 			}
 		break;
 		

@@ -45,13 +45,13 @@ public class Employee {
 			int x;
 			System.out.println("Emp HeadCount is" + Employee.headCount);
 		}
-		
-		public void search(int eno)
+									  //eno 	       //this.eno
+		public boolean search(int eno)//194		 //191    192   193
 		{
 			if(this.eno==eno)
-			{
-				System.out.println("Employee Found");
-			}
+					return true;
+			else
+					return false;
 		}
 		public void search(String ename)
 		{
