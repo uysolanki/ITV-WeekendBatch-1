@@ -5,7 +5,6 @@ public class CricketTurf implements Turf
 
 	@Override
 	public double getTurfPrice() {
-		return 700;
+		return 800;
 	}
-
 }

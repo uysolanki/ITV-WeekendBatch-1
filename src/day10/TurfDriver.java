@@ -24,20 +24,24 @@ public class TurfDriver {
 	System.out.println("Enter Choice");
 	int turfChoice=sc.nextInt();
 	
-	Turf t1=null;
-	switch(turfChoice)
-	{
-	case 1 :	t1 =new CricketTurf(); break;
-	case 2 :	t1 =new FootballTurf(); break;
-	case 3 :	t1 =new TennisTurf(); break;
-	case 4 :	t1 =new SkatingTurf(); break;
-	default : System.out.println("Invalid Input");
-	}
-
+	Turf t1=TurfSupervisor.getTurf(turfChoice);
+	
+	System.out.println("***Accessories Options***");
+	System.out.println("1. Cricket");
+	System.out.println("2. Football");
+	
+	
+	System.out.println("Enter Choice");
+	int accChoice=sc.nextInt();
+	
+	Accessories a1=AccessorySupervisor.getAccessory(accChoice);
+	
 	System.out.println("Customer Name "+ customerName);
 	System.out.println("Customer Mobile "+ customerMobile);
 	System.out.println("DateTime "+ timing);
-	System.out.println("Price "+ t1.getTurfPrice());
+	System.out.println("Turf Price "+ t1.getTurfPrice());
+	System.out.println("Acc Price "+ a1.getAccCost());
+	System.out.println("Total Price "+ (t1.getTurfPrice() + a1.getAccCost()));
 	}
 
 }
