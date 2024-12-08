@@ -6,7 +6,11 @@ public void car()
 {
 	System.out.println("Audi");
 }
-
+@Override
+public void home()
+{
+	System.out.println("Apple");
+}
 
 public void home(int x)
 {

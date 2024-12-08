@@ -3,7 +3,11 @@ package day7;
 public class StudentDriver {
 
 	public static void main(String[] args) {
-		Student s1=new Student();  //No Args
+//		Student s1=new Student();  //No Args
+		Student s1;
+		
+		s1=new Student();
+		
 		s1.displayStudent();						//Vedant  1 60.0
 		s1.acceptStudent(); 	   //Virat 18 78.5
 		s1.displayStudent();						//Virat 18 78.5
