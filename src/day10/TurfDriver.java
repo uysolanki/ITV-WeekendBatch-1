@@ -43,5 +43,4 @@ public class TurfDriver {
 	System.out.println("Acc Price "+ a1.getAccCost());
 	System.out.println("Total Price "+ (t1.getTurfPrice() + a1.getAccCost()));
 	}
-
 }
