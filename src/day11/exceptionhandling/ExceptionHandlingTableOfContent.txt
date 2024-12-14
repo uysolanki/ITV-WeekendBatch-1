@@ -1,0 +1,15 @@
+Table Of Content Exception Handling(EH) 
+1. Definition 
+2. Built In Exception classes 
+3. Java Natural reaction/stimuli when an exception occurs 
+4. Structure of EH
+5. Categories of Exception (Checked/Unchecked)
+6. multiple catch blocks
+   Default EH
+7. single catch block handling multiple exceptions
+8. Nested Try
+9. User Defined Exception
+10. throw , throws, Throwable
+11. exception delegation
+12. final, finally finalize
+13. try with resources

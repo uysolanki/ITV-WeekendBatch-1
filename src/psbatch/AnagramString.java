@@ -3,8 +3,8 @@ package psbatch;
 public class AnagramString {
 
 	public static void main(String[] args) {
-	String s1="boss";
-	String s2="ossb";
+	String s1="boss".toLowerCase();
+	String s2="ossb".toLowerCase();
 	
 	if(s1.length()!=s2.length())
 	{
