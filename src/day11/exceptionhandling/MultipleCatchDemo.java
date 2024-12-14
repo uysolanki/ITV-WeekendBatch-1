@@ -25,7 +25,7 @@ public class MultipleCatchDemo {
 		}
 		catch(ArithmeticException e2)
 		{
-			System.out.println("Denominator should be non zero");
+			System.out.println(e2.getMessage());
 		}
 		catch(Exception e3)
 		{

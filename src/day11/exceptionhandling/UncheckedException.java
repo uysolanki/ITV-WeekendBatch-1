@@ -9,6 +9,9 @@ public class UncheckedException {
 		Scanner sc=new Scanner(System.in);
 		try
 		{
+		int arr[]= {10,20};
+		int x=arr[2];
+		
 		System.out.println("Enter Numerator");  //10
 		int n=sc.nextInt();
 		System.out.println("Enter Denominator"); //0
@@ -19,6 +22,10 @@ public class UncheckedException {
 		catch(InputMismatchException|ArithmeticException e1)
 		{
 			System.out.println("Invalid Input");
+		}
+		catch(RuntimeException e2)
+		{
+			System.out.println("Some exception occured");
 		}
 
 	}
