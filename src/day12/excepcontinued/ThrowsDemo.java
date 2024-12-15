@@ -2,11 +2,13 @@ package day12.excepcontinued;
 
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ThrowsDemo {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException
+	{
 		Scanner sc=new Scanner(System.in);
 		
 		System.out.println("Enter Numerator");  //10
@@ -17,7 +19,7 @@ public class ThrowsDemo {
 		System.out.println(result);
 		}
 
-	private static double divide(int n,int d) throws InvalidAgeException
+	private static double divide(int n,int d) throws IOException
 	{
 		return  n/d;
 	}
