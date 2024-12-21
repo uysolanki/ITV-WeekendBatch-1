@@ -54,4 +54,35 @@ public class Student {
 		System.out.println("Student Roll Number is "+rno);
 		System.out.println("Student Percentage is "+per);
 	}
+
+	@Override
+	public String toString() {
+		return "Student [sname=" + sname + ", rno=" + rno + ", per=" + per + "]";
+	}
+
+	public String getSname() {
+		return sname;
+	}
+
+	public void setSname(String sname) {
+		this.sname = sname;
+	}
+
+	public int getRno() {
+		return rno;
+	}
+
+	public void setRno(int rno) {
+		this.rno = rno;
+	}
+
+	public double getPer() {
+		return per;
+	}
+
+	public void setPer(double per) {
+		this.per = per;
+	}
+	
+	
 }
