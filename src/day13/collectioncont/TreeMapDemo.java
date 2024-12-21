@@ -1,6 +1,7 @@
 package day13.collectioncont;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -41,6 +42,39 @@ public class TreeMapDemo {
 		System.out.println(olympic.get(1).get("second").getSname());
 		
 		
+		int arr[]= {11,20,22,32,55};
+//		int oddc=0;
+//		int evenc=0;
+//		for(int n:arr)
+//		{
+//			if(n%2==0)
+//				evenc++;
+//			else
+//				oddc++;
+//		}
+//		System.out.println("Odd Count "+oddc);
+//		System.out.println("Even Count "+evenc);
+		
+		
+		HashMap<String,Integer> counts=new HashMap();
+		counts.put("even", 0);
+		counts.put("odd", 0);
+		for(int n:arr)
+		{
+			if(n%2==0)
+			{
+				counts.put("even", counts.get("even")+1);
+			}
+			else
+			{
+				counts.put("odd", counts.get("odd")+1);
+			}
+		}
+		
+		System.out.println(counts);
 	}
+	
+	
+	
 
 }
