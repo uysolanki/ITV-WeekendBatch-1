@@ -24,6 +24,13 @@ public class ArrayListDemo {
 		names2.add("Alice");
 		names2.add("Ben");
 		names2.add("Chris");
+		names2.add("Chris");
+		names2.add("Chris");
+		names2.add("Chris");
+		names2.add(null);
+		names2.add(null);
+		names2.add(null);
+		System.out.println(names2);
 		
 		String name1=names2.get(2);
 		
