@@ -16,7 +16,7 @@ public static void main(String[] args) throws StreamReadException, DatabindExcep
       File file = new File("D:/JSONData/allproducts.json");
 
       List<Product> products = Arrays.asList(objectMapper.readValue(file, Product[].class));
-     for(Product product:products)
+      for(Product product:products)
     	 System.out.println(product);
 }
 }
