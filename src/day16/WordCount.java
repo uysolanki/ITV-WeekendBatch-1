@@ -24,6 +24,8 @@ public class WordCount {
 		
 		br.close();
 		freader.close();
+		
+	
 
 	}
 
