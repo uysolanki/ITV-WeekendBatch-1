@@ -17,7 +17,7 @@ public void run() {
 			{
 				ss++;
 				try {
-					Thread.sleep(10);
+					Thread.sleep(1);
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
@@ -26,7 +26,7 @@ public void run() {
 			ss=0;
 			mm++;
 			try {
-				Thread.sleep(10);
+				Thread.sleep(1);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
@@ -35,7 +35,7 @@ public void run() {
 		mm=0;
 		hh++;
 		try {
-			Thread.sleep(10);
+			Thread.sleep(1);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
